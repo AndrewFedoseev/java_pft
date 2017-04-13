@@ -2,6 +2,7 @@ package com.stqa.pft.appmanager;
 
 import com.stqa.pft.model.GroupData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
@@ -9,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  */
 public class GroupHelper extends HelperBase{
 
-  public GroupHelper(FirefoxDriver wd) {
+  public GroupHelper(WebDriver wd) {
     super(wd);
 
   }
@@ -38,5 +39,13 @@ public class GroupHelper extends HelperBase{
 
   public void selectGroup() {
     click(By.name("selected[]"));
+  }
+
+  public void initGroupModification() {
+    click(By.name("edit"));
+  }
+
+  public void submitGroupModification() {
+    click(By.name("update"));
   }
 }
