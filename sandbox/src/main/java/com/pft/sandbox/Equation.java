@@ -17,7 +17,7 @@ public class Equation {
     double d = b * b - 4 * a * c;
 
     if (a == 0)
-      System.out.println("Print");
+      System.out.println("Print ");
 
     if (d > 0) {
       n = 2;
