@@ -1,11 +1,16 @@
 package com.stqa.pft.tests;
 
 import com.stqa.pft.model.GroupData;
+import com.stqa.pft.model.Groups;
+import org.hamcrest.CoreMatchers;
+import org.hamcrest.MatcherAssert;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.*;
+
+import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
  * Created by Andrew on 4/9/2017.
@@ -22,18 +27,18 @@ public class GroupModificationTests extends TestBase {
 
   @Test
   public void testGroupModification() {
-    ensurePreconditions();
-    Set<GroupData> before = app.group().all();
+    Groups before = app.group().all();
     GroupData modifiedGroup = before.iterator().next();
     GroupData group = new GroupData()
             .withId(modifiedGroup.getId()).withName("test1")
             .withHeader("test2").withFooter("test3");
     app.group().modify(group);
-    Set<GroupData> after = app.group().all();
+    Groups after = app.group().all();
     Assert.assertEquals(after.size(), before.size());
 
     before.remove(modifiedGroup );
     before.add(group);
     Assert.assertEquals(before, after);
+    assertThat(after, CoreMatchers.equalTo(before.without(modifiedGroup).withAdded(group)));
   }
 }
