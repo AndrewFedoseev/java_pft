@@ -9,11 +9,11 @@ import org.testng.annotations.Test;
  */
 public class ContactModificationTests extends TestBase {
 
-  @Test
+  @Test(enabled = false)
   public void testContactModification(){
-    app.getNavigationHelper().goToGroupPage();
-    if(app.getGroupHelper().isThereAGroup()){
-      app.getGroupHelper().createGroup(new GroupData("test1", null, null));
+    app.goTo().groupPage();
+    if(app.group().isThereAGroup()){
+      app.group().create(new GroupData().withName("test1"));
     }
     app.getContactHelper().initContactModification();
     app.getContactHelper().fillContactForm(new ContactData("test_name", "test_surname", null), false);
