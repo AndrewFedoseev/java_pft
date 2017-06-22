@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 
 import java.util.*;
 
+import static org.hamcrest.CoreMatchers.*;
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
@@ -33,12 +35,8 @@ public class GroupModificationTests extends TestBase {
             .withId(modifiedGroup.getId()).withName("test1")
             .withHeader("test2").withFooter("test3");
     app.group().modify(group);
+    assertThat(app.group().count(), equalTo(before.size()));
     Groups after = app.group().all();
-    Assert.assertEquals(after.size(), before.size());
-
-    before.remove(modifiedGroup );
-    before.add(group);
-    Assert.assertEquals(before, after);
-    assertThat(after, CoreMatchers.equalTo(before.without(modifiedGroup).withAdded(group)));
+    assertThat(after, equalTo(before.without(modifiedGroup).withAdded(group)));
   }
 }

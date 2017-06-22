@@ -2,7 +2,6 @@ package com.stqa.pft.model;
 
 import com.google.common.collect.ForwardingSet;
 
-import java.lang.invoke.SerializedLambda;
 import java.util.HashSet;
 import java.util.Set;
 
