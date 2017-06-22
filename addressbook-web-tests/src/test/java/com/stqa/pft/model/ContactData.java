@@ -1,5 +1,7 @@
 package com.stqa.pft.model;
 
+import java.io.File;
+
 /**
  * Created by Andrew on 4/17/2017.
  */
@@ -11,7 +13,16 @@ public class ContactData {
     private String mobilePhone;
     private String workPhone;
     private String allPhones;
+    private File photo;
 
+    public File getPhoto() {
+        return photo;
+    }
+
+    public ContactData withPhoto(File photo) {
+        this.photo = photo;
+        return this;
+    }
 
     public String getAllPhones() {
         return allPhones;
