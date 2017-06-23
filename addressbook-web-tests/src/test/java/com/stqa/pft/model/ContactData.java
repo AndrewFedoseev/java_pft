@@ -6,14 +6,26 @@ import java.io.File;
  * Created by Andrew on 4/17/2017.
  */
 public class ContactData {
-    private final String firstname;
-    private final String secondname;
+    private String firstname;
+    private String secondname;
     private String group;
     private String homePhone;
     private String mobilePhone;
     private String workPhone;
     private String allPhones;
     private File photo;
+    private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public ContactData withId(int id) {
+        this.id = id;
+        return this;
+    }
+
+
 
     public File getPhoto() {
         return photo;
@@ -69,13 +81,19 @@ public class ContactData {
         this.group = group;
     }
 
+    public ContactData(){
 
-    public String getFirstname() {
-        return firstname;
     }
 
-    public String getLastname() {
-        return secondname;
+
+    public ContactData withFirstname(String firstname) {
+        this.firstname = firstname;
+        return this;
+    }
+
+    public ContactData withLastname(String secondname) {
+        this.secondname = secondname;
+        return this;
     }
 
     public String getGroup() {
@@ -83,4 +101,11 @@ public class ContactData {
     }
 
 
+    public String withFirstname() {
+        return firstname;
+    }
+
+    public String withLastname() {
+        return secondname;
+    }
 }
