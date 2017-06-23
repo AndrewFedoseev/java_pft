@@ -13,3 +13,6 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 addressbook-web-tests/.idea/workspace.xml
+addressbook-web-tests/.idea/modules/addressbook-web-tests_test.iml
+addressbook-web-tests/.idea/modules/addressbook-web-tests_main.iml
+addressbook-web-tests/.idea/gradle.xml
