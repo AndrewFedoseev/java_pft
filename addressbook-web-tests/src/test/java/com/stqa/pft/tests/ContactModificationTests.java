@@ -15,9 +15,9 @@ public class ContactModificationTests extends TestBase {
     if(app.group().isThereAGroup()){
       app.group().create(new GroupData().withName("test1"));
     }
-    app.getContactHelper().initContactModification();
-    app.getContactHelper().fillContactForm(new ContactData("test_name", "test_surname", null), false);
-    app.getContactHelper().submitContactModification();
-    app.getContactHelper().returnToHomePage();
+    app.contact().initContactModification();
+    app.contact().fillContactForm(new ContactData("test_name", "test_surname", null), false);
+    app.contact().submitContactModification();
+    app.contact().returnToHomePage();
   }
 }
