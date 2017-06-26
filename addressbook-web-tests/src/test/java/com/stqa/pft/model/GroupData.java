@@ -1,8 +1,12 @@
 package com.stqa.pft.model;
 
-public class GroupData {
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamOmitField;
 
-  private int id = Integer.MAX_VALUE;;
+@XStreamAlias("group")
+public class GroupData {
+  @XStreamOmitField
+  private int id = Integer.MAX_VALUE;
   private String name;
   private String header;
   private String footer;
