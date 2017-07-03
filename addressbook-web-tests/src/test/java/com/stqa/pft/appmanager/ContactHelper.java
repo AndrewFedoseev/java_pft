@@ -11,6 +11,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import static org.testng.Assert.*;
+
 /**
  * Created by Andrew on 4/19/2017.
  */
@@ -30,9 +32,12 @@ public class ContactHelper extends HelperBase {
         attach(By.name("photo"), contactData.getPhoto());
 
         if (creation) {
-            new Select(wd.findElement(By.name("new group"))).selectByVisibleText(contactData.getGroup());
-        } else {
-            Assert.assertFalse(isElementPresent(By.name("new group")));
+            if (contactData.getGroups().size() > 0) {
+                org.testng.Assert.assertTrue(contactData.getGroups().size() == 1);
+                new Select(wd.findElement(By.name("new group"))).selectByVisibleText(contactData.getGroups().iterator().next().getName());
+            } else {
+                Assert.assertFalse(isElementPresent(By.name("new group")));
+            }
         }
     }
 

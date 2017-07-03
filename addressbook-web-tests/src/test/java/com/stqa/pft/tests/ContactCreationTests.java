@@ -1,6 +1,7 @@
 package com.stqa.pft.tests;
 
 import com.stqa.pft.model.ContactData;
+import com.stqa.pft.model.Groups;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -12,11 +13,13 @@ public class ContactCreationTests extends TestBase {
 
     @Test()
     public void testContactCreation() {
+        Groups groups = app.db().groups();
+        File photo = new File("src/test/resources/download.png");
+        ContactData newContact = new ContactData().withFirstname("test_name").withLastname("test_surname").withPhoto(photo)
+                .inGroup(groups.iterator().next());
         app.goTo().gotoHomePage();
         app.contact().initContactCreation();
-        File photo = new File("src/test/resources/download.png");
-     //   app.contact().fillContactForm(
-     //           new ContactData().withFirstname("test_name").withLastname("test_surname").withPhoto(photo), true);
+        app.contact().fillContactForm(newContact, true);
         app.contact().submitContactCreation();
         app.contact().returnToHomePage();
     }
