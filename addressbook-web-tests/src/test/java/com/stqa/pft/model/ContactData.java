@@ -39,6 +39,9 @@ public class ContactData {
     @Transient
     private String allPhones;
 
+    public ContactData(String test_name, String test_surname, Object o) {
+    }
+
     @Override
     public String toString() {
         return "ContactData{" +
