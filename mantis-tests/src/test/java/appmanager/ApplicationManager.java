@@ -51,4 +51,7 @@ public class ApplicationManager {
         return new HttpSession(this);
     }
 
+    public String getProperty(String key) {
+        return properties.getProperty(key);
+    }
 }
