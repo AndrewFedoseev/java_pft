@@ -36,4 +36,19 @@ public class Login {
         driver.findElement(By.xpath("html/body/table/tbody/tr[2]/td/div/div[1]/div[3]/table/tbody/tr[1]/td/table/tbody/tr/td[2]/div/a[1]")).click();
 
     }
+    @Test
+    public void completedReviewList(){
+        openHomePage();
+        if (driver.findElement(By.id("gwt-uid-26")).isSelected()){
+            driver.findElement(By.id("gwt-uid-26")).click();
+        }
+        if (driver.findElement(By.id("gwt-uid-25")).isSelected()){
+            driver.findElement(By.id("gwt-uid-25")).click();
+        }
+        if (!driver.findElement(By.id("gwt-uid-27")).isSelected()){
+            driver.findElement(By.id("gwt-uid-27")).click();
+        }
+
+
+    }
 }

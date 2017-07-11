@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collab.iml" filepath="$PROJECT_DIR$/.idea/modules/collab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/collab_main.iml" group="collab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/collab_test.iml" group="collab" />
+    </modules>
+  </component>
+</project>

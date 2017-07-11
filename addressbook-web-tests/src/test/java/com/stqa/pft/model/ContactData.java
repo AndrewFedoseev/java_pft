@@ -40,6 +40,7 @@ public class ContactData {
     private String allPhones;
 
     public ContactData(String test_name, String test_surname, Object o) {
+
     }
 
     @Override
