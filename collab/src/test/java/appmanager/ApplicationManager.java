@@ -1,6 +1,5 @@
 package appmanager;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,7 +7,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import java.io.IOException;
 import java.util.Objects;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -22,6 +20,7 @@ public class ApplicationManager {
     private NavigationHelper navigationHelper;
     private SessionHelper sessionHelper;
     private ReviewHelper review;
+    private GroupHelper group;
 
     private String browser;
 
@@ -40,12 +39,13 @@ public class ApplicationManager {
             wd = new InternetExplorerDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         wd.get("http://localhost:8080");
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         sessionHelper.login("admin", "");
         review = new ReviewHelper(wd);
+        group = new GroupHelper(wd);
     }
 
 
@@ -61,6 +61,8 @@ public class ApplicationManager {
         return review;
     }
 
-
+    public GroupHelper group(){
+        return group;
+    }
 }
 

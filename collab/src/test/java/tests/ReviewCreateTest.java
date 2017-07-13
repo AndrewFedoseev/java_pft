@@ -14,6 +14,5 @@ public class ReviewCreateTest extends TestBase {
         app.review().initReviewCreation();
     //go back to Home page
         app.goTo().homePage();
-
     }
 }

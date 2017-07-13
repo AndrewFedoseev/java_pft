@@ -15,4 +15,8 @@ public class HelperBase {
     protected void click(By locator){
         wd.findElement(locator).click();
     }
+
+    protected  void sendKey(By locator, String key){
+        wd.findElement(locator).sendKeys(key);
+    }
 }
