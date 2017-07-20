@@ -19,7 +19,10 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void adminPage(){
-        click(By.xpath("html/body/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr/td[2]/div/a[2]"));
+     //   click(By.xpath("html/body/table/tbody/tr[1]/td/table/tbody/tr[1]/td/table/tbody/tr/td[2]/div/a[2]"));
+     //  click(By.cssSelector("a[href='go?page=Admin']"));
+        click(By.cssSelector("a[title='Site-Wide Administration']"));
+     //   click(By.cssSelector("a.gwt-Anchor GNO11FOCO1"));
     }
 
     public void groupPage(){

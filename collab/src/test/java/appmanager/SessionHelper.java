@@ -19,7 +19,6 @@ public class SessionHelper extends HelperBase {
     }
 
     public void openAdminSection(){
-      // homePage();
         wd.findElement(By.cssSelector("a[href='go?page=Admin']")).click();
     }
 

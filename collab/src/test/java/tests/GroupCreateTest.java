@@ -12,5 +12,6 @@ public class GroupCreateTest extends TestBase {
         app.goTo().adminPage();
         app.goTo().groupPage();
         app.group().initGroupCreation();
+
     }
 }
