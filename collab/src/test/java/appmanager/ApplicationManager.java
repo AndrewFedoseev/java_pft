@@ -39,7 +39,7 @@ public class ApplicationManager {
             wd = new InternetExplorerDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.get("http://localhost:8080");
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);

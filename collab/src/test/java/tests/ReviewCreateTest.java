@@ -1,6 +1,7 @@
 package tests;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -11,8 +12,12 @@ public class ReviewCreateTest extends TestBase {
 
     @Test
     public void testReviewCreation() {
+        int before = app.review().getReviewCount();
         app.review().initReviewCreation();
-    //go back to Home page
+        //go back to Home page
         app.goTo().homePage();
+        int after = app.review().getReviewCount();
+        Assert.assertEquals(after, before+1);
     }
+
 }

@@ -14,4 +14,9 @@ public class ReviewHelper extends HelperBase {
     public void initReviewCreation() {
         click(By.xpath("html/body/table/tbody/tr[2]/td/div/div[1]/div[3]/table/tbody/tr[1]/td/table/tbody/tr/td[2]/div/a[1]"));
     }
+
+    public int getReviewCount() {
+     //   return wd.findElements(By.cssSelector("a[href='#review:id=463']")).size();
+        return wd.findElements(By.cssSelector("a[href^='#review:id']")).size();
+    }
 }
