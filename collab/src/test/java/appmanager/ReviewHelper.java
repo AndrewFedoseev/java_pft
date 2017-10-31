@@ -3,6 +3,10 @@ package appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+
 /**
  * Created by Andrii.Fiedosieiev on 7/7/2017.
  */
@@ -16,7 +20,33 @@ public class ReviewHelper extends HelperBase {
     }
 
     public int getReviewCount() {
-     //   return wd.findElements(By.cssSelector("a[href='#review:id=463']")).size();
+        //   return wd.findElements(By.cssSelector("a[href='#review:id=463']")).size();
         return wd.findElements(By.cssSelector("a[href^='#review:id']")).size();
+    }
+
+    public void robotFileUpload() throws AWTException {
+        StringSelection stringSelection = new StringSelection("C:\\temp\\ccollab-review-530.zip");
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
+        //native key strokes for CTRL, V and ENTER keys
+        Robot robot = new Robot();
+        //robot.delay(250);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+        robot.delay(250);
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.delay(250);
+        robot.keyRelease(KeyEvent.VK_ENTER);
+    }
+
+
+    public void uploadFile() throws AWTException {
+        wd.findElement(By.xpath("html/body/table/tbody/tr[2]/td/div/div[1]/div[3]/div/div[1]/div[8]/table/tbody/tr[2]/td/div/div/div/div[2]/table/tbody/tr/td[2]/div/div/div[2]")).click();
+        wd.findElement(By.className("GHRNCJTDJT")).click();
+        robotFileUpload();
+        click(By.xpath("html/body/div[5]/div/div/table/tbody/tr[3]/td[2]/div/div/a[2]"));
     }
 }

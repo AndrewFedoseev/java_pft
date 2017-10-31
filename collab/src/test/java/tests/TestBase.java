@@ -1,11 +1,9 @@
 package tests;
 
+import appmanager.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
-import appmanager.*;
-import org.testng.annotations.BeforeTest;
 
 /**
  * Created by Andrew on 4/6/2017.
@@ -20,7 +18,7 @@ public class TestBase {
         app.init();
     }
 
-    @AfterSuite()
+    @AfterSuite(enabled = false)
     public void tearDown() {
         app.stop();
     }

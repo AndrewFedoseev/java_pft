@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a6bf31-e1e3-475f-be42-bc4611fdc49c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../collab/src/test/java/tests/GroupCreateTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../collab/src/test/java/tests/AdminPageSettingsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ApplicationManager.java" afterPath="$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ApplicationManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../collab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../collab/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../collab/src/test/java/appmanager/ApplicationManager.java" afterPath="$PROJECT_DIR$/../collab/src/test/java/appmanager/ApplicationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../collab/src/test/java/appmanager/ReviewHelper.java" afterPath="$PROJECT_DIR$/../collab/src/test/java/appmanager/ReviewHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../collab/src/test/java/appmanager/NavigationHelper.java" afterPath="$PROJECT_DIR$/../collab/src/test/java/appmanager/NavigationHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../collab/src/test/java/tests/ReviewCreateTest.java" afterPath="$PROJECT_DIR$/../collab/src/test/java/tests/ReviewCreateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../collab/src/test/java/tests/TestBase.java" afterPath="$PROJECT_DIR$/../collab/src/test/java/tests/TestBase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -55,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../soap-sample/build.gradle">
+      <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="22">
+              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -68,9 +70,21 @@
       <file leaf-file-name="ContactCreationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="264">
+              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupDeletionTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupDeletionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,83 +92,18 @@
       <file leaf-file-name="ContactModificationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactModificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="374">
               <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupCreationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupCreationTests.java">
+      <file leaf-file-name="GroupModificationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupModificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/GroupHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-              <folding>
-                <element signature="e#2065#2066#0" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-                <element signature="e#2134#2135#0" expanded="true" />
-                <element signature="e#2164#2165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/NavigationHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="973">
-              <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebDriver.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.4.0/1a0347cf7295dc29ea2087568037e69e83079c81/selenium-api-3.4.0-sources.jar!/org/openqa/selenium/WebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/model/ContactData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1855">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="354">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -1195,10 +1144,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/generators/GroupDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/DbHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/model/Groups.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/model/GroupData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/HdConnectionTest.java" />
@@ -1220,6 +1167,8 @@
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/../soap-sample/build.gradle" />
         <option value="$PROJECT_DIR$/../soap-sample/src/test/java/stqa/pft/soap/GeoIpServiceTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupModificationTests.java" />
       </list>
     </option>
   </component>
@@ -1247,9 +1196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1258,179 +1204,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="soap-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="soap-sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addressbook-web-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appmanager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1450,6 +1224,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1471,7 +1248,7 @@
       <recent name="C:\Selenium\java_pft\addressbook-web-tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GeoIpServiceTests.testInvalidIp">
+  <component name="RunManager" selected="TestNG.Login.openAdminSection">
     <configuration default="false" name="Login.openHomePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1486,39 +1263,6 @@
       <option name="PACKAGE_NAME" value="com.stqa.pft.tests" />
       <option name="MAIN_CLASS_NAME" value="com.stqa.pft.tests.Login" />
       <option name="METHOD_NAME" value="openHomePage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="Login.createReview" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.stqa.pft.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="addressbook-web-tests_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.stqa.pft.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.stqa.pft.tests.Login" />
-      <option name="METHOD_NAME" value="createReview" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1623,6 +1367,39 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../soap-sample" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Login.openAdminSection" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.stqa.pft.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="addressbook-web-tests_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.stqa.pft.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.stqa.pft.tests.Login" />
+      <option name="METHOD_NAME" value="openAdminSection" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -1852,18 +1629,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.Login.openHomePage" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Login.createReview" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Login.completedReviewList" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testMyIp" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testInvalidIp" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Login.completedReviewList" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testMyIp" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testInvalidIp" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Login.openAdminSection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testInvalidIp" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testMyIp" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Login.completedReviewList" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Login.openHomePage" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Login.createReview" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Login.openAdminSection" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testInvalidIp" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.GeoIpServiceTests.testMyIp" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.Login.completedReviewList" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Login.openHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -1881,9 +1658,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeoIpServiceTests_testInvalidIp - 2017.07.19 at 16h 59m 04s.xml">
-      <configuration name="GeoIpServiceTests.testInvalidIp" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GeoIpServiceTests_testMyIp - 2017.07.19 at 16h 53m 57s.xml">
       <configuration name="GeoIpServiceTests.testMyIp" configurationId="TestNG" />
     </history-entry>
@@ -1908,6 +1682,9 @@
     <history-entry file="Login_openAdminSection - 2017.07.05 at 15h 12m 51s.xml">
       <configuration name="Login.openAdminSection" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Login_openAdminSection - 2017.08.16 at 11h 49m 41s.xml">
+      <configuration name="Login.openAdminSection" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="Login_openHomePage - 2017.07.07 at 10h 26m 37s.xml">
       <configuration name="Login.openHomePage" configurationId="TestNG" />
     </history-entry>
@@ -1922,22 +1699,22 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16066483" sideWeight="0.15343347" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11495845" sideWeight="0.15665236" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5144124" sideWeight="0.8465665" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5140515" sideWeight="0.84334767" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34609827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35910404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1443133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2782705" sideWeight="0.49356222" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2782705" sideWeight="0.49356222" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1964,41 +1741,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/java-hamcrest/2.0.0.0/a0413cf330eddf469d7600b36b4d115170f95a62/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/MatcherAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/generators/GroupDataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="71" column="30" lean-forward="false" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/DbConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.2.10.Final/6a853e528cfaa39342f408619b404fda6a9af228/hibernate-core-5.2.10.Final-sources.jar!/org/hibernate/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -2006,45 +1748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/model/Groups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="579" column="22" lean-forward="false" selection-start-line="579" selection-start-column="22" selection-end-line="579" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/model/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/HdConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -2066,41 +1773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="130" column="10" lean-forward="false" selection-start-line="130" selection-start-column="10" selection-end-line="130" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactPhoneTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -2186,21 +1858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1726#1727#0" expanded="false" />
-            <element signature="e#1770#1771#0" expanded="false" />
-            <element signature="e#1834#1835#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1911#1912#0" expanded="false" />
-            <element signature="e#1956#1957#0" expanded="false" />
-            <element signature="e#2019#2020#0" expanded="false" />
-            <element signature="e#2074#2075#0" expanded="false" />
-            <element signature="e#2151#2152#0" expanded="false" />
-            <element signature="e#2205#2206#0" expanded="false" />
-            <element signature="e#2537#2538#0" expanded="false" />
-            <element signature="e#2615#2616#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2208,13 +1865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#7664#7665#0" expanded="false" />
-            <element signature="e#7694#7695#0" expanded="false" />
-            <element signature="e#7986#7987#0" expanded="false" />
-            <element signature="e#8038#8039#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2222,109 +1872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11704">
           <caret line="605" column="0" lean-forward="false" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#8682#8683#0" expanded="false" />
-            <element signature="e#8708#8709#0" expanded="false" />
-            <element signature="e#8760#8761#0" expanded="false" />
-            <element signature="e#8797#8798#0" expanded="false" />
-            <element signature="e#8848#8849#0" expanded="false" />
-            <element signature="e#8884#8885#0" expanded="false" />
-            <element signature="e#8948#8949#0" expanded="false" />
-            <element signature="e#8987#8988#0" expanded="false" />
-            <element signature="e#9050#9051#0" expanded="false" />
-            <element signature="e#9088#9089#0" expanded="false" />
-            <element signature="e#20109#20110#0" expanded="false" />
-            <element signature="e#20145#20146#0" expanded="false" />
-            <element signature="e#20187#20188#0" expanded="false" />
-            <element signature="e#20214#20215#0" expanded="false" />
-            <element signature="e#20261#20262#0" expanded="false" />
-            <element signature="e#20292#20293#0" expanded="false" />
-            <element signature="e#20361#20362#0" expanded="false" />
-            <element signature="e#20405#20406#0" expanded="false" />
-            <element signature="e#24107#24108#0" expanded="false" />
-            <element signature="e#24133#24134#0" expanded="false" />
-            <element signature="e#25001#25002#0" expanded="false" />
-            <element signature="e#25067#25068#0" expanded="false" />
-            <element signature="e#25344#25345#0" expanded="false" />
-            <element signature="e#25404#25405#0" expanded="false" />
-            <element signature="e#41468#41469#0" expanded="false" />
-            <element signature="e#41526#41527#0" expanded="false" />
-            <element signature="e#43974#43975#0" expanded="false" />
-            <element signature="e#44001#44002#0" expanded="false" />
-            <element signature="e#44093#44094#0" expanded="false" />
-            <element signature="e#44121#44122#0" expanded="false" />
-            <element signature="e#44209#44210#0" expanded="false" />
-            <element signature="e#44235#44236#0" expanded="false" />
-            <element signature="e#44287#44288#0" expanded="false" />
-            <element signature="e#44317#44318#0" expanded="false" />
-            <element signature="e#44370#44371#0" expanded="false" />
-            <element signature="e#44401#44402#0" expanded="false" />
-            <element signature="e#44453#44454#0" expanded="false" />
-            <element signature="e#44483#44484#0" expanded="false" />
-            <element signature="e#44561#44562#0" expanded="false" />
-            <element signature="e#44617#44618#0" expanded="false" />
-            <element signature="e#45031#45032#0" expanded="false" />
-            <element signature="e#45065#45066#0" expanded="false" />
-            <element signature="e#45151#45152#0" expanded="false" />
-            <element signature="e#45175#45176#0" expanded="false" />
-            <element signature="e#45235#45236#0" expanded="false" />
-            <element signature="e#45268#45269#0" expanded="false" />
-            <element signature="e#45309#45310#0" expanded="false" />
-            <element signature="e#45332#45333#0" expanded="false" />
-            <element signature="e#45717#45718#0" expanded="false" />
-            <element signature="e#45756#45757#0" expanded="false" />
-            <element signature="e#45889#45890#0" expanded="false" />
-            <element signature="e#45928#45929#0" expanded="false" />
-            <element signature="e#46063#46064#0" expanded="false" />
-            <element signature="e#46103#46104#0" expanded="false" />
-            <element signature="e#46251#46252#0" expanded="false" />
-            <element signature="e#46292#46293#0" expanded="false" />
-            <element signature="e#46366#46367#0" expanded="false" />
-            <element signature="e#46411#46412#0" expanded="false" />
-            <element signature="e#46485#46486#0" expanded="false" />
-            <element signature="e#46530#46531#0" expanded="false" />
-            <element signature="e#46605#46606#0" expanded="false" />
-            <element signature="e#46651#46652#0" expanded="false" />
-            <element signature="e#46729#46730#0" expanded="false" />
-            <element signature="e#46771#46772#0" expanded="false" />
-            <element signature="e#47373#47374#0" expanded="false" />
-            <element signature="e#47399#47400#0" expanded="false" />
-            <element signature="e#47462#47463#0" expanded="false" />
-            <element signature="e#47494#47495#0" expanded="false" />
-            <element signature="e#48271#48272#0" expanded="false" />
-            <element signature="e#48314#48315#0" expanded="false" />
-            <element signature="e#48350#48351#0" expanded="false" />
-            <element signature="e#48376#48377#0" expanded="false" />
-            <element signature="e#48411#48412#0" expanded="false" />
-            <element signature="e#48434#48435#0" expanded="false" />
-            <element signature="e#50208#50209#0" expanded="false" />
-            <element signature="e#50241#50242#0" expanded="false" />
-            <element signature="e#50304#50305#0" expanded="false" />
-            <element signature="e#50347#50348#0" expanded="false" />
-            <element signature="e#51612#51613#0" expanded="false" />
-            <element signature="e#51680#51681#0" expanded="false" />
-            <element signature="e#51750#51751#0" expanded="false" />
-            <element signature="e#51819#51820#0" expanded="false" />
-            <element signature="e#51892#51893#0" expanded="false" />
-            <element signature="e#51960#51961#0" expanded="false" />
-            <element signature="e#52286#52287#0" expanded="false" />
-            <element signature="e#52312#52313#0" expanded="false" />
-            <element signature="e#52425#52426#0" expanded="false" />
-            <element signature="e#52473#52474#0" expanded="false" />
-            <element signature="e#52542#52543#0" expanded="false" />
-            <element signature="e#52590#52591#0" expanded="false" />
-            <element signature="e#52646#52647#0" expanded="false" />
-            <element signature="e#52695#52696#0" expanded="false" />
-            <element signature="e#52755#52756#0" expanded="false" />
-            <element signature="e#52806#52807#0" expanded="false" />
-            <element signature="e#52986#52987#0" expanded="false" />
-            <element signature="e#53026#53027#0" expanded="false" />
-            <element signature="e#53103#53104#0" expanded="false" />
-            <element signature="e#53144#53145#0" expanded="false" />
-            <element signature="e#53291#53292#0" expanded="false" />
-            <element signature="e#53341#53342#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2332,69 +1879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5346">
           <caret line="291" column="0" lean-forward="false" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#7038#7039#0" expanded="false" />
-            <element signature="e#7096#7097#0" expanded="false" />
-            <element signature="e#7916#7917#0" expanded="false" />
-            <element signature="e#7941#7942#0" expanded="false" />
-            <element signature="e#7982#7983#0" expanded="false" />
-            <element signature="e#8017#8018#0" expanded="false" />
-            <element signature="e#8085#8086#0" expanded="false" />
-            <element signature="e#8129#8130#0" expanded="false" />
-            <element signature="e#8186#8187#0" expanded="false" />
-            <element signature="e#8231#8232#0" expanded="false" />
-            <element signature="e#9247#9248#0" expanded="false" />
-            <element signature="e#9297#9298#0" expanded="false" />
-            <element signature="e#9346#9347#0" expanded="false" />
-            <element signature="e#9389#9390#0" expanded="false" />
-            <element signature="e#9436#9437#0" expanded="false" />
-            <element signature="e#9477#9478#0" expanded="false" />
-            <element signature="e#9530#9531#0" expanded="false" />
-            <element signature="e#9561#9562#0" expanded="false" />
-            <element signature="e#9627#9628#0" expanded="false" />
-            <element signature="e#9662#9663#0" expanded="false" />
-            <element signature="e#11932#11933#0" expanded="false" />
-            <element signature="e#11965#11966#0" expanded="false" />
-            <element signature="e#12033#12034#0" expanded="false" />
-            <element signature="e#12091#12092#0" expanded="false" />
-            <element signature="e#12134#12135#0" expanded="false" />
-            <element signature="e#12160#12161#0" expanded="false" />
-            <element signature="e#13293#13294#0" expanded="false" />
-            <element signature="e#13326#13327#0" expanded="false" />
-            <element signature="e#14783#14784#0" expanded="false" />
-            <element signature="e#14842#14843#0" expanded="false" />
-            <element signature="e#14905#14906#0" expanded="false" />
-            <element signature="e#14934#14935#0" expanded="false" />
-            <element signature="e#15107#15108#0" expanded="false" />
-            <element signature="e#15160#15161#0" expanded="false" />
-            <element signature="e#16022#16023#0" expanded="false" />
-            <element signature="e#16088#16089#0" expanded="false" />
-            <element signature="e#16220#16221#0" expanded="false" />
-            <element signature="e#16286#16287#0" expanded="false" />
-            <element signature="e#17191#17192#0" expanded="false" />
-            <element signature="e#17243#17244#0" expanded="false" />
-            <element signature="e#17281#17282#0" expanded="false" />
-            <element signature="e#17331#17332#0" expanded="false" />
-            <element signature="e#20338#20339#0" expanded="false" />
-            <element signature="e#20365#20366#0" expanded="false" />
-            <element signature="e#20406#20407#0" expanded="false" />
-            <element signature="e#20433#20434#0" expanded="false" />
-            <element signature="e#20545#20546#0" expanded="false" />
-            <element signature="e#20572#20573#0" expanded="false" />
-            <element signature="e#20838#20839#0" expanded="false" />
-            <element signature="e#20884#20885#0" expanded="false" />
-            <element signature="e#20953#20954#0" expanded="false" />
-            <element signature="e#20999#21000#0" expanded="false" />
-            <element signature="e#21055#21056#0" expanded="false" />
-            <element signature="e#21102#21103#0" expanded="false" />
-            <element signature="e#21162#21163#0" expanded="false" />
-            <element signature="e#21211#21212#0" expanded="false" />
-            <element signature="e#21737#21738#0" expanded="false" />
-            <element signature="e#21768#21769#0" expanded="false" />
-            <element signature="e#21828#21829#0" expanded="false" />
-            <element signature="e#21859#21860#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2402,11 +1886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1694">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3408#3409#0" expanded="false" />
-            <element signature="e#3479#3480#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2414,145 +1893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21978">
           <caret line="1114" column="0" lean-forward="false" selection-start-line="1114" selection-start-column="0" selection-end-line="1114" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#7045#7046#0" expanded="false" />
-            <element signature="e#7065#7066#0" expanded="false" />
-            <element signature="e#7297#7298#0" expanded="false" />
-            <element signature="e#7332#7333#0" expanded="false" />
-            <element signature="e#7532#7533#0" expanded="false" />
-            <element signature="e#7557#7558#0" expanded="false" />
-            <element signature="e#7597#7598#0" expanded="false" />
-            <element signature="e#7625#7626#0" expanded="false" />
-            <element signature="e#8356#8357#0" expanded="false" />
-            <element signature="e#8409#8410#0" expanded="false" />
-            <element signature="e#8536#8537#0" expanded="false" />
-            <element signature="e#8565#8566#0" expanded="false" />
-            <element signature="e#8688#8689#0" expanded="false" />
-            <element signature="e#8727#8728#0" expanded="false" />
-            <element signature="e#15829#15830#0" expanded="false" />
-            <element signature="e#15886#15887#0" expanded="false" />
-            <element signature="e#20132#20133#0" expanded="false" />
-            <element signature="e#20186#20187#0" expanded="false" />
-            <element signature="e#20765#20766#0" expanded="false" />
-            <element signature="e#20798#20799#0" expanded="false" />
-            <element signature="e#20960#20961#0" expanded="false" />
-            <element signature="e#20987#20988#0" expanded="false" />
-            <element signature="e#21174#21175#0" expanded="false" />
-            <element signature="e#21227#21228#0" expanded="false" />
-            <element signature="e#21407#21408#0" expanded="false" />
-            <element signature="e#21460#21461#0" expanded="false" />
-            <element signature="e#21702#21703#0" expanded="false" />
-            <element signature="e#21737#21738#0" expanded="false" />
-            <element signature="e#21780#21781#0" expanded="false" />
-            <element signature="e#21855#21856#0" expanded="false" />
-            <element signature="e#21917#21918#0" expanded="false" />
-            <element signature="e#21952#21953#0" expanded="false" />
-            <element signature="e#25230#25231#0" expanded="false" />
-            <element signature="e#25279#25280#0" expanded="false" />
-            <element signature="e#25440#25441#0" expanded="false" />
-            <element signature="e#25489#25490#0" expanded="false" />
-            <element signature="e#25649#25650#0" expanded="false" />
-            <element signature="e#25698#25699#0" expanded="false" />
-            <element signature="e#25859#25860#0" expanded="false" />
-            <element signature="e#25908#25909#0" expanded="false" />
-            <element signature="e#26064#26065#0" expanded="false" />
-            <element signature="e#26113#26114#0" expanded="false" />
-            <element signature="e#26295#26296#0" expanded="false" />
-            <element signature="e#26344#26345#0" expanded="false" />
-            <element signature="e#26719#26720#0" expanded="false" />
-            <element signature="e#26780#26781#0" expanded="false" />
-            <element signature="e#26833#26834#0" expanded="false" />
-            <element signature="e#26895#26896#0" expanded="false" />
-            <element signature="e#28123#28124#0" expanded="false" />
-            <element signature="e#28152#28153#0" expanded="false" />
-            <element signature="e#34873#34874#0" expanded="false" />
-            <element signature="e#34941#34942#0" expanded="false" />
-            <element signature="e#36703#36704#0" expanded="false" />
-            <element signature="e#36738#36739#0" expanded="false" />
-            <element signature="e#37300#37301#0" expanded="false" />
-            <element signature="e#37342#37343#0" expanded="false" />
-            <element signature="e#37509#37510#0" expanded="false" />
-            <element signature="e#37551#37552#0" expanded="false" />
-            <element signature="e#40880#40881#0" expanded="false" />
-            <element signature="e#40905#40906#0" expanded="false" />
-            <element signature="e#45522#45523#0" expanded="false" />
-            <element signature="e#45554#45555#0" expanded="false" />
-            <element signature="e#50588#50589#0" expanded="false" />
-            <element signature="e#50641#50642#0" expanded="false" />
-            <element signature="e#50686#50687#0" expanded="false" />
-            <element signature="e#50724#50725#0" expanded="false" />
-            <element signature="e#50786#50787#0" expanded="false" />
-            <element signature="e#50833#50834#0" expanded="false" />
-            <element signature="e#55292#55293#0" expanded="false" />
-            <element signature="e#55325#55326#0" expanded="false" />
-            <element signature="e#55386#55387#0" expanded="false" />
-            <element signature="e#55431#55432#0" expanded="false" />
-            <element signature="e#55856#55857#0" expanded="false" />
-            <element signature="e#55885#55886#0" expanded="false" />
-            <element signature="e#56273#56274#0" expanded="false" />
-            <element signature="e#56335#56336#0" expanded="false" />
-            <element signature="e#56565#56566#0" expanded="false" />
-            <element signature="e#56587#56588#0" expanded="false" />
-            <element signature="e#57849#57850#0" expanded="false" />
-            <element signature="e#57908#57909#0" expanded="false" />
-            <element signature="e#58049#58050#0" expanded="false" />
-            <element signature="e#58100#58101#0" expanded="false" />
-            <element signature="e#58194#58195#0" expanded="false" />
-            <element signature="e#58253#58254#0" expanded="false" />
-            <element signature="e#58402#58403#0" expanded="false" />
-            <element signature="e#58430#58431#0" expanded="false" />
-            <element signature="e#58492#58493#0" expanded="false" />
-            <element signature="e#58532#58533#0" expanded="false" />
-            <element signature="e#59011#59012#0" expanded="false" />
-            <element signature="e#59046#59047#0" expanded="false" />
-            <element signature="e#59177#59178#0" expanded="false" />
-            <element signature="e#59224#59225#0" expanded="false" />
-            <element signature="e#59309#59310#0" expanded="false" />
-            <element signature="e#59343#59344#0" expanded="false" />
-            <element signature="e#59470#59471#0" expanded="false" />
-            <element signature="e#59515#59516#0" expanded="false" />
-            <element signature="e#59906#59907#0" expanded="false" />
-            <element signature="e#59953#59954#0" expanded="false" />
-            <element signature="e#60381#60382#0" expanded="false" />
-            <element signature="e#60419#60420#0" expanded="false" />
-            <element signature="e#60571#60572#0" expanded="false" />
-            <element signature="e#60598#60599#0" expanded="false" />
-            <element signature="e#60702#60703#0" expanded="false" />
-            <element signature="e#60735#60736#0" expanded="false" />
-            <element signature="e#60885#60886#0" expanded="false" />
-            <element signature="e#60914#60915#0" expanded="false" />
-            <element signature="e#61012#61013#0" expanded="false" />
-            <element signature="e#61045#61046#0" expanded="false" />
-            <element signature="e#61181#61182#0" expanded="false" />
-            <element signature="e#61227#61228#0" expanded="false" />
-            <element signature="e#61273#61274#0" expanded="false" />
-            <element signature="e#61308#61309#0" expanded="false" />
-            <element signature="e#61960#61961#0" expanded="false" />
-            <element signature="e#61990#61991#0" expanded="false" />
-            <element signature="e#62053#62054#0" expanded="false" />
-            <element signature="e#62083#62084#0" expanded="false" />
-            <element signature="e#62218#62219#0" expanded="false" />
-            <element signature="e#62248#62249#0" expanded="false" />
-            <element signature="e#62285#62286#0" expanded="false" />
-            <element signature="e#62328#62329#0" expanded="false" />
-            <element signature="e#62510#62511#0" expanded="false" />
-            <element signature="e#62559#62560#0" expanded="false" />
-            <element signature="e#62735#62736#0" expanded="false" />
-            <element signature="e#62784#62785#0" expanded="false" />
-            <element signature="e#63561#63562#0" expanded="false" />
-            <element signature="e#63604#63605#0" expanded="false" />
-            <element signature="e#63840#63841#0" expanded="false" />
-            <element signature="e#63869#63870#0" expanded="false" />
-            <element signature="e#63900#63901#0" expanded="false" />
-            <element signature="e#63924#63925#0" expanded="false" />
-            <element signature="e#63953#63954#0" expanded="false" />
-            <element signature="e#63975#63976#0" expanded="false" />
-            <element signature="e#64023#64024#0" expanded="false" />
-            <element signature="e#64055#64056#0" expanded="false" />
-            <element signature="e#64372#64373#0" expanded="false" />
-            <element signature="e#64414#64415#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2560,7 +1900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="1192" column="0" lean-forward="false" selection-start-line="1192" selection-start-column="0" selection-end-line="1192" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2568,15 +1907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../soap-sample/src/test/java/stqa/pft/soap/GeoIpServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2584,84 +1914,274 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/model/ContactData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1855">
+        <state relative-caret-position="-1699">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.4.0/1a0347cf7295dc29ea2087568037e69e83079c81/selenium-api-3.4.0-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/model/GroupData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/model/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/java-hamcrest/2.0.0.0/a0413cf330eddf469d7600b36b4d115170f95a62/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/MatcherAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactModificationTests.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="176">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/../soap-sample/src/test/java/stqa/pft/soap/GeoIpServiceTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#289#290#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#876#877#0" expanded="false" />
+            <element signature="e#918#919#0" expanded="false" />
+            <element signature="e#958#959#0" expanded="false" />
+            <element signature="e#1001#1002#0" expanded="false" />
+            <element signature="e#1084#1085#0" expanded="false" />
+            <element signature="e#1127#1128#0" expanded="false" />
+            <element signature="e#1165#1166#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
+            <element signature="e#1250#1251#0" expanded="false" />
+            <element signature="e#1994#1995#0" expanded="false" />
+            <element signature="e#2062#2063#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/HdConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactPhoneTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/DbConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="103" column="11" lean-forward="false" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#12854#0" expanded="false" />
+            <element signature="e#3709#3710#0" expanded="false" />
+            <element signature="e#3746#3747#0" expanded="false" />
+            <element signature="e#4834#4835#0" expanded="false" />
+            <element signature="e#4898#4899#0" expanded="false" />
+            <element signature="e#5293#5294#0" expanded="false" />
+            <element signature="e#5345#5346#0" expanded="false" />
+            <element signature="e#6453#6454#0" expanded="false" />
+            <element signature="e#6499#6500#0" expanded="false" />
+            <element signature="e#6684#6685#0" expanded="false" />
+            <element signature="e#6717#6718#0" expanded="false" />
+            <element signature="e#6897#6898#0" expanded="false" />
+            <element signature="e#6933#6934#0" expanded="false" />
+            <element signature="e#7396#7397#0" expanded="false" />
+            <element signature="e#7437#7438#0" expanded="false" />
+            <element signature="e#8033#8034#0" expanded="false" />
+            <element signature="e#8081#8082#0" expanded="false" />
+            <element signature="e#8731#8732#0" expanded="false" />
+            <element signature="e#8776#8777#0" expanded="false" />
+            <element signature="e#8923#8924#0" expanded="false" />
+            <element signature="e#8950#8951#0" expanded="false" />
+            <element signature="e#12773#12774#0" expanded="false" />
+            <element signature="e#12850#12851#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#517#518#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#603#604#0" expanded="false" />
+            <element signature="e#3407#3408#0" expanded="false" />
+            <element signature="e#3447#3448#0" expanded="false" />
+            <element signature="e#3485#3486#0" expanded="false" />
+            <element signature="e#3532#3533#0" expanded="false" />
+            <element signature="e#3577#3578#0" expanded="false" />
+            <element signature="e#3632#3633#0" expanded="false" />
+            <element signature="e#3679#3680#0" expanded="false" />
+            <element signature="e#3719#3720#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33182#0" expanded="false" />
+            <element signature="e#33104#33105#0" expanded="false" />
+            <element signature="e#33178#33179#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.4.0/1a0347cf7295dc29ea2087568037e69e83079c81/selenium-api-3.4.0-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="135" column="7" lean-forward="false" selection-start-line="135" selection-start-column="7" selection-end-line="135" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#17945#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="836">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
-            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="false" />
+            <element signature="e#2251#2252#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/ContactModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stqa/pft/tests/GroupModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

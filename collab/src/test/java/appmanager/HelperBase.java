@@ -12,11 +12,18 @@ public class HelperBase {
     public HelperBase(WebDriver wd) {
         this.wd = wd;
     }
+
+
+
     protected void click(By locator){
         wd.findElement(locator).click();
     }
 
-    protected  void sendKey(By locator, String key){
+    protected void sendKey(By locator, String key){
         wd.findElement(locator).sendKeys(key);
+    }
+
+    protected void checkForErrors(){
+     //   wd.findElements()
     }
 }
