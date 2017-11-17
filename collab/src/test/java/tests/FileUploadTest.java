@@ -16,7 +16,7 @@ public class FileUploadTest extends TestBase {
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
     }
 
-    @Test
+    @Test(enabled = false)
     public void fileUploadTest() throws AWTException, InterruptedException {
         //  app.goTo().homePage();
         app.goTo().reviewPage();

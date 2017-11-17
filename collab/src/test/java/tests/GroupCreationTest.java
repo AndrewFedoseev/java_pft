@@ -9,8 +9,8 @@ public class GroupCreationTest extends TestBase {
 
     @Test
     public void testGroupCreation() {
-        //  app.goTo().homePage();
-        //app.goTo().adminPage();
+        app.goTo().homePage();
+        app.goTo().adminPage();
         app.goTo().groupPage();
         app.group().initGroupCreation();
     }
